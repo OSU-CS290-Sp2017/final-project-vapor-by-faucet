@@ -19,6 +19,10 @@ navbar with each console on it
 clicking a console:
 goes to a page with all the console games (tagged in the json by console, dynamically generates each page for the console.
 
+each game has a page:
+Data has: name, release date, a rating, console type, link to its home page
+can leave commments
+can put a rating on a comment
 
 
 read this team: https://guides.github.com/introduction/flow/
