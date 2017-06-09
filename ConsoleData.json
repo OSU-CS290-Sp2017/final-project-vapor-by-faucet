@@ -1,0 +1,44 @@
+{
+	"XBoxOne":
+	{
+		"name": "XBoxOne",
+		"pic":
+		[
+			{
+				"url": "https://assets.console-deals.com/images/content/xboxone/xbox-one.png"
+			}
+		]
+	},
+
+	"PS4":
+	{
+		"name": "PS4",
+		"pic":
+		[
+			{
+				"url": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8c/PS4-Console-wDS4.png/1200px-PS4-Console-wDS4.png"
+			},
+		]
+	},
+	
+	"Nintendo Switch":
+	{
+		"name": "Nintendo Switch",
+		"pic":
+		[
+			{
+				"url": "http://media.nintendo.com/nintendo/cocoon/switch-static-pages/switch/etRgxnAu0zRX4bmWnt9K628wG7YQUI6t/images/switch/buy-now/bundle_gray_portable.jpg"
+			},
+		]
+	},
+	
+	"PC":
+	{
+		"name": "PC",
+		"pic":
+		[
+			{
+				"url": "https://i.ytimg.com/vi/hDO4sMI6HnU/maxresdefault.jpg"
+			},
+		]
+	},
