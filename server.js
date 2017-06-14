@@ -6,7 +6,6 @@ var exphbs = require('express-handlebars');
 var gameData = require('./gameData');
 
 
-var consolesData = require('./ConsoleData');
 
 var app = express();
 var port = process.env.PORT || 3000;
@@ -20,12 +19,8 @@ app.set('view engine', 'handlebars');
 app.get('/:console/:game', function(req, res, next){
   var cons = req.params.console;
   var game = req.params.game;
-  console.log("Console: ", cons, " Game: ", game);
   var consoleinfo = gameData[cons];
   var gameinfo = consoleinfo.games[game];
-  console.log(consoleinfo);
-  console.log('\n');
-  console.log(gameinfo);
   if (gameinfo) {
     var templateargs = {
       title: gameinfo.title,
