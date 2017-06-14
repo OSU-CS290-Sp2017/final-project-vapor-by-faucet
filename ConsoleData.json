@@ -17,7 +17,7 @@
 		[
 			{
 				"url": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8c/PS4-Console-wDS4.png/1200px-PS4-Console-wDS4.png"
-			},
+			}
 		]
 	},
 	
@@ -28,7 +28,7 @@
 		[
 			{
 				"url": "http://media.nintendo.com/nintendo/cocoon/switch-static-pages/switch/etRgxnAu0zRX4bmWnt9K628wG7YQUI6t/images/switch/buy-now/bundle_gray_portable.jpg"
-			},
+			}
 		]
 	},
 	
@@ -39,6 +39,7 @@
 		[
 			{
 				"url": "https://i.ytimg.com/vi/hDO4sMI6HnU/maxresdefault.jpg"
-			},
+			}
 		]
-	},
+	}
+}
