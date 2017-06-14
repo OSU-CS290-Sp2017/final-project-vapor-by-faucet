@@ -17,6 +17,10 @@ app.get('/', function(req,res) {
 	res.sendFile(path.join(__dirname+'/public/mainPage.html'));
 });
 
+app.get('*', function(req, res) {
+	res.render('404Page');
+});
+
 app.listen(port, function(){
 	console.log("== Server listening on port", port);
 });
