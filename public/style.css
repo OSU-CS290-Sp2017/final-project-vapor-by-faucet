@@ -118,13 +118,17 @@ li.switch a:hover{
     display: flex;
     flex:1 50%;
     max-width: 400px;
-    max-height: 300px;
+    width: 400px;
+    height: 300px;
+    max-width: 400px;
     margin: 50px 100px;
     justify-content: center;
 
 }
 
 .console-photo-img{
+    width: 400px;
+    height: 300px;
     max-height: inherit;
     max-width: inherit;
 }
@@ -177,4 +181,11 @@ float: left;
   border-radius: 15px;
 	width: 320px;
 	height: 400px;
+}
+
+
+.console-game-photo:hover {
+    cursor: pointer;
+    opacity: .5;
+
 }
