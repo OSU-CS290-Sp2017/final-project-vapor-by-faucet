@@ -18,6 +18,12 @@
           "cover": "http://cdn3-www.comingsoon.net/assets/uploads/gallery/destiny-2/destiny20015.jpg",
           "description": "From the makers of the acclaimed hit game Destiny, comes the much-anticipated FPS sequel that takes you on an epic journey across the solar system. Humanity’s last safe city has fallen to an overwhelming invasion force, led by Ghaul, the imposing commander of the brutal Red Legion. He has stripped the city’s Guardians of their power, and forced the survivors to flee. You will venture to mysterious, unexplored worlds of our solar system to discover an arsenal of weapons and devastating new combat abilities. To defeat the Red Legion and confront Ghaul, you must reunite humanity’s scattered heroes, stand together, and fight back to reclaim our home.",
           "rating": "4"
+        },
+        "uncharted4":{
+          "title": "Uncharted 4: A Theif's End",
+          "cover": "http://www.mobygames.com/images/covers/l/330413-uncharted-4-a-thief-s-end-playstation-4-front-cover.jpg",
+          "description": "Set three years after the events of Uncharted 3: Drake’s Deception, Nathan Drake has presumably left the world of fortune hunting behind. However, it doesn’t take long for adventure to come calling when Drake’s brother, Sam, resurfaces seeking his help to save his own life and offering an adventure Drake can’t resist.",
+          "rating": "4"
         }
       }
   },
