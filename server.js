@@ -20,6 +20,7 @@ app.get('/:console/:game', function(req, res, next){
   var cons = req.params.console;
   var game = req.params.game;
   var consoleinfo = gameData[cons];
+  if (!consoleinfo) next();
   var gameinfo = consoleinfo.games[game];
   if (gameinfo) {
     var templateargs = {
