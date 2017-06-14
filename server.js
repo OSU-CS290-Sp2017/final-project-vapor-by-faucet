@@ -14,6 +14,19 @@ app.engine('handlebars', exphbs({defaultLayout: 'main'}));
 app.set('view engine', 'handlebars');
 
 
+app.get('/:console', function (req, res, next) {
+
+	var gameConsole = req.params.console;
+	var consoleGameData = gameData[gameConsole];
+  var templateArgs = {
+    name: consoleGameData.name,
+		consoleGames: consoleGameData.games
+
+  };
+
+  res.render('consoleListGames', templateArgs);
+
+});
 
 
 app.get('/:console/:game', function(req, res, next){
