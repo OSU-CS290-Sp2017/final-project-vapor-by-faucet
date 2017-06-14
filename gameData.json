@@ -2,7 +2,7 @@
   "xbox": {
      "name": "Xbox One",
      "games": [
-       {
+       "halo5": {
          "title": "Halo 5: Guardians",
          "cover": "https://static.trueachievements.com/customimages/039459.jpg",
          "description": "A mysterious and unstoppable force threatens the galaxy, the Master Chief is missing and his loyalty questioned. Experience the most dramatic Halo story to date through the eyes of the Master Chief and Blue Team, and Spartan Locke and Fireteam Osiris – in a 4-player cooperative epic that spans three worlds. Challenge friends and rivals in new multiplayer modes: Warzone (massive 24-player battles featuring AI enemies and allies,) and Arena (pure 4-vs-4 competitive combat.)",
@@ -13,7 +13,7 @@
   "ps4": {
       "name": "PlayStation 4",
       "games": [
-        {
+        "Destiny": {
           "title": "Destiny 2",
           "cover": "http://cdn3-www.comingsoon.net/assets/uploads/gallery/destiny-2/destiny20015.jpg",
           "description": "From the makers of the acclaimed hit game Destiny, comes the much-anticipated FPS sequel that takes you on an epic journey across the solar system. Humanity’s last safe city has fallen to an overwhelming invasion force, led by Ghaul, the imposing commander of the brutal Red Legion. He has stripped the city’s Guardians of their power, and forced the survivors to flee. You will venture to mysterious, unexplored worlds of our solar system to discover an arsenal of weapons and devastating new combat abilities. To defeat the Red Legion and confront Ghaul, you must reunite humanity’s scattered heroes, stand together, and fight back to reclaim our home.",
@@ -24,7 +24,7 @@
   "switch": {
         "name": "Nintendo Switch",
          "games": [
-           {
+           "BOTW": {
              "title": "The Legend of Zelda: Breath of the Wild",
              "cover": "https://cdn.vox-cdn.com/uploads/chorus_asset/file/7802443/NintendoSwitch_TLOZBreathoftheWild_boxart.jpg",
              "description": "Forget everything you know about The Legend of Zelda games. Step into a world of discovery, exploration and adventure in The Legend of Zelda: Breath of the Wild, a boundary-breaking new game in the acclaimed series. Travel across fields, through forests and to mountain peaks as you discover what has become of the ruined kingdom of Hyrule in this stunning open-air adventure.",
@@ -35,7 +35,7 @@
   "pc": {
       "name": "PC",
       "games": [
-        {
+       "RocketLeague": {
           "title": "Rocket League",
           "cover": "http://www.mobygames.com/images/covers/l/307552-rocket-league-playstation-4-front-cover.jpg",
           "description": "Rocket League, the hyper-powered sequel to Supersonic Acrobatic Rocket-Powered Battle-Cars, is an arena-based, futuristic vehicle sports game that will test your driving and stunting skills like never before. Take matters into your own hands in this visceral, high-octane, physics-based vehicle sports game that lets you choose one of a variety of high-flying cars equipped with huge rocket boosters. Soar high into the air to score amazing aerial goals, perform incredible saves using the vehicles’ acrobatic abilities, and even demolish enemy players at supersonic speeds!",
