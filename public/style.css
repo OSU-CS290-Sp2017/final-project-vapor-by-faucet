@@ -82,19 +82,19 @@ li.navitem a:hover{
 }
 
 li.ps4 a:hover{
-    color: #269bfa;
+    color: rgba(0,100,191,1);
 }
 
 li.xbox a:hover{
-	color: #00ff00;
+	color: rgba(69,172,25,1);
 }
 
 li.pc a:hover{
-	color: yellow;
+	color: rgba(255,220,0,1);
 }
 
 li.switch a:hover{
-	color: red;
+	color: rgba(229,1,18,1);
 }
 
 .main-title-container{
