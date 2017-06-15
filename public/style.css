@@ -3,21 +3,22 @@ body {
 	width: 100%;
 	height: 100%;
 	margin: 0px;
-	padding: 0px;
+	padding: 0px;	
 }
 
 header a{
 	text-decoration: none;
 }
 
-header h1  {
+h1  {
 	list-style-type: none;
     margin: 0;
     margin-top: 0;
     padding: 0;
     overflow: hidden;
+/*	
     background-color: #269bfa;
-
+*/
 }
 
 h1.site-title {
@@ -49,17 +50,17 @@ ul.navlist {
     overflow: hidden;
     background-color: #333333;
     height:50px;
-
+    
 }
 
 li.active a{
-
+	
 	background-color: #808080;
 }
 
 
 /*li.navitem.active a:hover{
-
+	
 	color: #333333;
 }*/
 
@@ -102,7 +103,7 @@ li.switch a:hover{
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-
+    
 }
 
 
@@ -110,20 +111,24 @@ li.switch a:hover{
 .console-card {
     /*border: 2px solid #cccccc;
     border-radius: 4px;*/
-    font-size: 15px;
+    font-size: 15px;    
     font-weight: 500;
     text-align: left;
-    background-color: #e6e6e6;
+    background-color: #e6e6e6; 
     display: flex;
     flex:1 50%;
     max-width: 400px;
-    max-height: 300px;
+    width: 400px;
+    height: 300px;
+    max-width: 400px;
     margin: 50px 100px;
     justify-content: center;
 
 }
 
 .console-photo-img{
+    width: 400px;
+    height: 300px;
     max-height: inherit;
     max-width: inherit;
 }
@@ -179,6 +184,13 @@ float: left;
 	width: 320px;
 	height: 400px;
 }
+
+.console-game-photo:hover {
+    cursor: pointer;
+    opacity: .5;
+
+}
+
 
 
 
