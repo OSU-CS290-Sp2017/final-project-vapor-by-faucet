@@ -22,20 +22,55 @@ app.get('/:console', function (req, res, next) {
 	var gameConsole = req.params.console;
 	var consoleGameData = gameData[gameConsole];
 	if (consoleGameData){
+		if (consoleGameData.name == "PlayStation 4"){
   	var templateArgs = {
     	name: consoleGameData.name,
-			consoleGames: consoleGameData.games
+			consoleGames: consoleGameData.games,
+			console1: true,
+			console2: false,
+			console3: false,
+			console4: false
+			};
+	}
 
-  	};
+	if (consoleGameData.name == "Xbox One"){
+	var templateArgs = {
+		name: consoleGameData.name,
+		consoleGames: consoleGameData.games,
+		console1: false,
+		console2: true,
+		console3: false,
+		console4: false
+		};
+}
+
+if (consoleGameData.name == "Nintendo Switch"){
+var templateArgs = {
+	name: consoleGameData.name,
+	consoleGames: consoleGameData.games,
+	console1: false,
+	console2: false,
+	console3: true,
+	console4: false
+	};
+}
+
+if (consoleGameData.name == "PC"){
+var templateArgs = {
+	name: consoleGameData.name,
+	consoleGames: consoleGameData.games,
+	console1: false,
+	console2: false,
+	console3: false,
+	console4: true
+	};
+}
+
 	res.render('consoleListGames', templateArgs);
 	}
 	else{
 		next();
 	}
-
-
-
-
 });
 
 
