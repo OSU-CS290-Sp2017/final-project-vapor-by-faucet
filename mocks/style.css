@@ -167,8 +167,8 @@ GAME PAGE CSS
 
 .game-image-container{
 	position: relative;
-	width: 450px;
-	height: 600px;
+	max-width: 450px;
+	max-height: 600px;
 }
 
 #game-rating{
@@ -190,8 +190,8 @@ GAME PAGE CSS
 }
 
 .game-image {
-	height: inherit;
-	width: inherit;
+	max-height: inherit;
+	max-width: inherit;
 }
 
 .game-description{
@@ -204,75 +204,4 @@ GAME PAGE CSS
 
 .game-description p{
 	font-size: 25px;
-}
-
-
-/*******
-Comment Section CSS
-*******/
-
-#commentheader{
-	font-size: 36px;
-	border-bottom: solid 1px;
-	border-color: #5f5f5f;
-	height: 50px;
-}
-
-.comment-section{
-	display: flex;
-	flex-wrap: wrap;
-	justify-content: flex-start;
-}
-
-
-.comment-input{
-	flex: 3 100%;
-	margin: 6px 3px;
-	height: 80px;
-	display: flex;
-	padding-top: 2px;
-	padding-bottom: 2px;
-	border-bottom: solid 1px #5f5f5f;
-}
-
-/*.comment-input textarea{
-	height: inherit;
-}*/
-
-#comment-input-text{
-	width: 50%;
-}
-
-#comment-input-user{
-	width: 15%;
-	height: 30px;
-}
-
-#new-comment-button{
-	position: relative;
-	height: 25px;
-	top: 45px;
-	right: 10%;
-}
-
-#rating-input{
-	position: relative;
-	height: 25px;
-	top: 45px;
-	right: 15%;
-}
-
-.comments{
-	/*margin: 3px;
-
-	border: solid 1px #5f5f5f;*/
-	flex: 2 100%;
-	max-width: 50%;
-	display: flex;
-  padding: 1px;
-	margin: 2px;
-	padding-left: 4px;
-  border: 1px solid #dadada;
-  border-radius: 2px;
-  background-color: #fff;
 }
