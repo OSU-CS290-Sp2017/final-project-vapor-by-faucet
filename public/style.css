@@ -352,10 +352,11 @@ GAME PAGE CSS
 	height: 50px;
 	width: 50px;
 	display: inline-block;
-	background-color: black;
+	background-color: #222222;
 	text-align: center;
 	vertical-align: middle;
 	line-height: 50px;
+	border-radius: 20%;
 }
 
 #game-rating h2{
@@ -387,6 +388,7 @@ GAME PAGE CSS
 Comment Section CSS
 *******/
 
+
 #commentheader{
 	font-size: 36px;
 	border-bottom: solid 1px;
@@ -398,6 +400,7 @@ Comment Section CSS
 	display: flex;
 	flex-wrap: wrap;
 	justify-content: flex-start;
+
 }
 
 
@@ -406,9 +409,10 @@ Comment Section CSS
 	margin: 6px 3px;
 	height: 80px;
 	display: flex;
-	padding-top: 2px;
-	padding-bottom: 2px;
+	padding-top: 3px;
+	padding-bottom: 10px;
 	border-bottom: solid 1px #5f5f5f;
+
 }
 
 /*.comment-input textarea{
@@ -417,11 +421,18 @@ Comment Section CSS
 
 #comment-input-text{
 	width: 50%;
+	border: 1px solid rgba(50,50,50,1);
+	border-radius: 5px;
+
 }
 
 #comment-input-user{
 	width: 15%;
 	height: 30px;
+	border: 1px solid rgba(50,50,50,1);
+	border-radius: 5px;
+	padding-left: 5px;
+
 }
 
 #new-comment-button{
@@ -429,6 +440,8 @@ Comment Section CSS
 	height: 25px;
 	top: 45px;
 	right: 10%;
+	border: 1px solid rgba(50,50,50,1);
+	border-radius: 5px;
 }
 
 #rating-input{
@@ -436,6 +449,8 @@ Comment Section CSS
 	height: 25px;
 	top: 45px;
 	right: 15%;
+	border: 1px solid rgba(50,50,50,1);
+	border-radius: 5px;
 }
 
 .comments{
@@ -449,6 +464,20 @@ Comment Section CSS
 	margin: 2px;
 	padding-left: 4px;
   border: 1px solid #dadada;
-  border-radius: 2px;
+  border-radius: 5px;
   background-color: #fff;
+
+}
+
+#usercomment{
+
+padding-left: 10px;
+padding-right: 10px;
+
+}
+
+.user-rating{
+
+padding-left: 40px;
+padding-right: 10px;
 }
