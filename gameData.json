@@ -49,7 +49,19 @@
           "title": "Uncharted 4: A Thief's End",
           "cover": "http://www.mobygames.com/images/covers/l/330413-uncharted-4-a-thief-s-end-playstation-4-front-cover.jpg",
           "description": "Set three years after the events of Uncharted 3: Drake’s Deception, Nathan Drake has presumably left the world of fortune hunting behind. However, it doesn’t take long for adventure to come calling when Drake’s brother, Sam, resurfaces seeking his help to save his own life and offering an adventure Drake can’t resist.",
-          "rating": "4"
+          "rating": "4",
+          "comments": [
+           {
+             "comment": "Nathan Drake has the best voice actor!",
+             "author": "Nolan North",
+             "rating": "4.2"
+           },
+           {
+             "comment": "Is it \"theif\" or \"thief\"?",
+             "author": "Nrice Bg",
+             "rating": "1"
+           }
+         ]
         }
       }
   
