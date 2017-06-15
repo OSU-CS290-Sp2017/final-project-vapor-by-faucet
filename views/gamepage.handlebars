@@ -2,15 +2,17 @@
 
 <main class="game-page">
 
-<div class="game-title">
-  <h1>{{title}}<h1>
-</div>
+
 
 
 
 <article class="game-info">
-  <div class="game-image-containter">
+  <div class="game-image-container">
     <img class="game-image" src="{{url}}" />
+  </div>
+
+  <div class="game-title">
+    <h1>{{title}}<h1>
   </div>
 
     <div id="game-rating">
@@ -25,7 +27,21 @@
 
 </article>
 
+<div id="commentheader">
+  <h3>
+    Comments
+  </h3>
+</div>
+
 <div class="comment-section">
+
+
+  <div class="comment-input">
+    <textarea id="comment-input-text" placeholder="Enter Your Comment Here"></textarea>
+    <textarea id="comment-input-user" placeholder="Enter Your Username here"></textarea>
+    <input type="number" min="0" max ="5" id="rating-input">
+    <button type="button" id="new-comment-button">Submit</button>
+  </div>
 
 {{#each comments}}
   {{> comment}}
