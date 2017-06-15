@@ -23,9 +23,9 @@ h1  {
 
 h1.site-title {
 	display: block;
-	padding-left: 20px;
-    margin: 0;
-    margin-top: 0;
+	padding-left: 0px;
+    margin: 0px;
+    margin-top: 0px;
     background-color: #0d0d0d;
     color: white;
     text-decoration: none;
@@ -46,23 +46,26 @@ ul.navlist {
 	list-style-type: none;
     margin: 0;
     padding: 0px 0px;
+    padding-right: 0px;
     border-top: 20px;
     overflow: hidden;
     background-color: #333333;
     height:50px;
+    width:100%;
     
 }
 
 li.active a{
 	
-	background-color: #808080;
+	background-color: #c0c5ce;
+
 }
 
 
-/*li.navitem.active a:hover{
+li.navitem.active a{
 	
-	color: #333333;
-}*/
+	color: black;
+}
 
 li.navitem a {
 	display: block;
@@ -79,7 +82,7 @@ li.navitem a {
 
 
 li.navitem a:hover{
-	color:#333333;
+	color:black;
 }
 
 li.ps4 a:hover{
@@ -104,6 +107,23 @@ li.switch a:hover{
     flex-wrap: wrap;
     justify-content: center;
     
+}
+
+.page-title{
+
+	width:100%;
+	height: 100px;
+	padding: 5px 0px;
+	-moz-box-shadow: 0 1px 3px rgba(0,0,0,0.5);
+	-webkit-box-shadow: 0 1px 3px rgba(0,0,0,0.5);
+	/*-moz-border-radius: 15px;*/
+	/*-webkit-border-radius: 15px;*/
+	text-align: center;
+	justify-content: center;
+	background-color: #c0c5ce;
+	vertical-align: middle;
+	font-size: 28px;
+
 }
 
 
@@ -144,24 +164,109 @@ li.switch a:hover{
 CONSOLE PAGE CSS
 **********/
 
+/*background-color: rgba(0,100,191,1);*/
+
 .console-title1 {
-	background-color: rgba(0,100,191,1);
-	padding: 10px 20px;
+	width:100%;
+	height: 100px;
+	padding: 5px 0px;
+	-moz-box-shadow: 0 1px 3px rgba(0,0,0,0.5);
+	-webkit-box-shadow: 0 1px 3px rgba(0,0,0,0.5);
+	/*-moz-border-radius: 15px;*/
+	/*-webkit-border-radius: 15px;*/
+	text-align: center;
+	justify-content: center;
+	background-color: #c0c5ce;
+	
+
 }
 
+.console-img1{
+    width: 600px;
+    height: 100px;
+    max-height: inherit;
+    max-width: inherit;
+
+}
+/*.banner{
+width:620px;
+height: 100px;
+margin:7px auto;
+-moz-box-shadow: 0 1px 3px rgba(0,0,0,0.5);
+-webkit-box-shadow: 0 1px 3px rgba(0,0,0,0.5);
+-moz-border-radius: 15px;
+-webkit-border-radius: 15px;
+padding-left:190px;
+}*/
+
+
+
 .console-title2 {
-	background-color: rgba(69,172,25,1);
-	padding: 10px 20px;
+	width:100%;
+	height: 100px;
+	padding: 5px 0px;
+	-moz-box-shadow: 0 1px 3px rgba(0,0,0,0.5);
+	-webkit-box-shadow: 0 1px 3px rgba(0,0,0,0.5);
+	/*-moz-border-radius: 15px;*/
+	/*-webkit-border-radius: 15px;*/
+	text-align: center;
+	justify-content: center;
+	background-color: #c0c5ce;
+}
+
+.console-img2{
+    width: 600px;
+    height: 100px;
+    max-height: inherit;
+    max-width: inherit;
+
 }
 
 .console-title3 {
-	background-color: rgba(229,1,18,1);
-	padding: 10px 20px;
+	width:100%;
+	height: 100px;
+	padding: 5px 0px;
+	-moz-box-shadow: 0 1px 3px rgba(0,0,0,0.5);
+	-webkit-box-shadow: 0 1px 3px rgba(0,0,0,0.5);
+	/*-moz-border-radius: 15px;*/
+	/*-webkit-border-radius: 15px;*/
+	text-align: center;
+	justify-content: center;
+	background-color: #c0c5ce;
 }
 
+.console-img3{
+    width: 500px;
+    height: 100px;
+    max-height: inherit;
+    max-width: inherit;
+    padding-left: 80px;
+
+}
+
+
+
 .console-title4 {
-	background-color: rgba(255,220,0,1);
-	padding: 10px 20px;
+		width:100%;
+	height: 100px;
+	padding: 5px 0px;
+	-moz-box-shadow: 0 1px 3px rgba(0,0,0,0.5);
+	-webkit-box-shadow: 0 1px 3px rgba(0,0,0,0.5);
+	/*-moz-border-radius: 15px;*/
+	/*-webkit-border-radius: 15px;*/
+	text-align: center;
+	justify-content: center;
+	background-color: #c0c5ce;
+
+}
+
+.console-img4{
+    width: 400px;
+    height: 120px;
+    max-height: inherit;
+    max-width: inherit;
+   
+
 }
 
 .console-game-title{
