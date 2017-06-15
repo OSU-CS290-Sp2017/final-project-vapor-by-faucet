@@ -166,23 +166,37 @@ CONSOLE PAGE CSS
 
 .console-game-title{
 
-	padding-left: 35px;
-	width: 320px;
+	padding-left: 30px;
+	width: 260px;
 
 }
 
 .console-game-photo{
 
-position:relative;
-float: left;
-
-	flex: 0 1 30%;
-  display: flex;
-  margin: 5px 20px 30px 20px;
   border: 2px solid rgba(200,200,200,1);
   border-radius: 15px;
 	width: 320px;
 	height: 400px;
+	margin-left: -4px;
+}
+
+.console-game-content{
+
+
+	background-color: rgba(245,245,245,1);
+	width: 316px;
+	height: 450px;
+	border: 2px solid rgba(245,245,245,1);
+	border-radius: 10px;
+	margin-left: 10px;
+	margin-right: 22px;
+	margin-top: 10px;
+
+}
+.console-game{
+
+	display: inline-block;
+
 }
 
 .console-game-photo:hover {
