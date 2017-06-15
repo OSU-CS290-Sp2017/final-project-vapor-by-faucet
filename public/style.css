@@ -17,7 +17,7 @@ h1  {
     margin-top: 0;
     padding: 0;
     overflow: hidden;
-/*	
+/*
     background-color: #269bfa;
 */
 }
@@ -53,18 +53,18 @@ ul.navlist {
     background-color: #333333;
     height:50px;
     width:100%;
-    
+
 }
 
 li.active a{
-	
+
 	background-color: #c0c5ce;
 
 }
 
 
 li.navitem.active a{
-	
+
 	color: black;
 }
 
@@ -107,7 +107,7 @@ li.switch a:hover{
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-    
+
 }
 
 .page-title{
@@ -132,10 +132,10 @@ li.switch a:hover{
 .console-card {
     /*border: 2px solid #cccccc;
     border-radius: 4px;*/
-    font-size: 15px;    
+    font-size: 15px;
     font-weight: 500;
     text-align: left;
-    background-color: #e6e6e6; 
+    background-color: #e6e6e6;
     display: flex;
     flex:1 50%;
     max-width: 400px;
@@ -178,7 +178,7 @@ CONSOLE PAGE CSS
 	text-align: center;
 	justify-content: center;
 	background-color: #c0c5ce;
-	
+
 
 }
 
@@ -266,7 +266,7 @@ padding-left:190px;
     height: 120px;
     max-height: inherit;
     max-width: inherit;
-   
+
 
 }
 
@@ -424,6 +424,7 @@ Comment Section CSS
 	width: 50%;
 	border: 1px solid rgba(50,50,50,1);
 	border-radius: 5px;
+font-size: 17px;
 
 }
 
@@ -433,25 +434,29 @@ Comment Section CSS
 	border: 1px solid rgba(50,50,50,1);
 	border-radius: 5px;
 	padding-left: 5px;
+	font-size: 17px;
 
 }
 
 #new-comment-button{
 	position: relative;
-	height: 25px;
+	height: 35px;
+	width: 80px;
 	top: 45px;
 	right: 10%;
 	border: 1px solid rgba(50,50,50,1);
 	border-radius: 5px;
+	font-size: 17px;
 }
 
 #rating-input{
 	position: relative;
-	height: 25px;
+	height: 30px;
 	top: 45px;
 	right: 15%;
 	border: 1px solid rgba(50,50,50,1);
 	border-radius: 5px;
+	font-size: 17px;
 }
 
 .comments{
@@ -467,6 +472,7 @@ Comment Section CSS
   border: 1px solid #dadada;
   border-radius: 5px;
   background-color: #fff;
+	font-size: 21px;
 
 }
 
@@ -482,3 +488,4 @@ padding-right: 10px;
 padding-left: 40px;
 padding-right: 10px;
 }
+
