@@ -1,0 +1,207 @@
+body {
+	background-color: #e6e6e6;
+	width: 100%;
+	height: 100%;
+	margin: 0px;
+	padding: 0px;
+}
+
+header a{
+	text-decoration: none;
+}
+
+header h1  {
+	list-style-type: none;
+    margin: 0;
+    margin-top: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #269bfa;
+
+}
+
+h1.site-title {
+	display: block;
+	padding-left: 20px;
+    margin: 0;
+    margin-top: 0;
+    background-color: #0d0d0d;
+    color: white;
+    text-decoration: none;
+    font-size:54px ;
+    width: 100%;
+	height: 75px;
+	font-style: normal;
+	font-weight: 400;
+}
+
+h1.site-title a {
+	text-decoration: none;
+	font-weight: 400;
+	padding-top: 60px;
+}
+
+ul.navlist {
+	list-style-type: none;
+    margin: 0;
+    padding: 0px 0px;
+    border-top: 20px;
+    overflow: hidden;
+    background-color: #333333;
+    height:50px;
+
+}
+
+li.active a{
+
+	background-color: #808080;
+}
+
+
+/*li.navitem.active a:hover{
+
+	color: #333333;
+}*/
+
+li.navitem a {
+	display: block;
+    padding: 0px 20px;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    float: left;
+    color: white;
+    text-decoration: none;
+    font-size: 24px;
+    font-weight: 500;
+   /* border-right: 1px solid white; */
+}
+
+
+li.navitem a:hover{
+	color:#333333;
+}
+
+li.ps4 a:hover{
+    color: #269bfa;
+}
+
+li.xbox a:hover{
+	color: #00ff00;
+}
+
+li.pc a:hover{
+	color: yellow;
+}
+
+li.switch a:hover{
+	color: red;
+}
+
+.main-title-container{
+    margin:5px 5%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+
+}
+
+
+
+.console-card {
+    /*border: 2px solid #cccccc;
+    border-radius: 4px;*/
+    font-size: 15px;
+    font-weight: 500;
+    text-align: left;
+    background-color: #e6e6e6;
+    display: flex;
+    flex:1 50%;
+    max-width: 400px;
+    max-height: 300px;
+    margin: 50px 100px;
+    justify-content: center;
+
+}
+
+.console-photo-img{
+    max-height: inherit;
+    max-width: inherit;
+}
+
+
+
+.console-card:hover{
+    cursor: pointer;
+    opacity: .5;
+
+}
+
+
+/*********
+GAME PAGE CSS
+**********/
+.game-page{
+	padding: 0 1%;
+}
+
+
+
+.game-info{
+	padding-top: 10px;
+	display: flex;
+	flex-wrap: wrap;
+}
+
+
+.game-title{
+	justify-content: center;
+	height: 60px;
+	width: auto;
+	display: inline;
+}
+
+.game-title h1{
+	font-size: 45px;
+	margin: 0;
+}
+
+.game-image-container{
+	position: relative;
+	max-width: 450px;
+	max-height: 600px;
+}
+
+#game-rating{
+	margin-left: 9%;
+	height: 50px;
+	width: 50px;
+	display: inline-block;
+	background-color: black;
+	text-align: center;
+	vertical-align: middle;
+	line-height: 50px;
+}
+
+#game-rating h2{
+	margin: 0;
+	height: inherit;
+	width: inherit;
+	color: white;
+}
+
+.game-image {
+	max-height: inherit;
+	max-width: inherit;
+}
+
+.game-description{
+	flex: 1 50%;
+	max-width: 50%;
+	position: absolute;
+	top: 25%;
+	left: 470px;
+}
+
+.game-description p{
+	font-size: 25px;
+}
