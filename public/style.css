@@ -82,19 +82,19 @@ li.navitem a:hover{
 }
 
 li.ps4 a:hover{
-    color: #269bfa;
+    color: rgba(0,100,191,1);
 }
 
 li.xbox a:hover{
-	color: #00ff00;
+	color: rgba(69,172,25,1);
 }
 
 li.pc a:hover{
-	color: yellow;
+	color: rgba(255,220,0,1);
 }
 
 li.switch a:hover{
-	color: red;
+	color: rgba(229,1,18,1);
 }
 
 .main-title-container{
@@ -135,6 +135,51 @@ li.switch a:hover{
     opacity: .5;
 
 }
+/*********
+CONSOLE PAGE CSS
+**********/
+
+.console-title1 {
+	background-color: rgba(0,100,191,1);
+	padding: 10px 20px;
+}
+
+.console-title2 {
+	background-color: rgba(69,172,25,1);
+	padding: 10px 20px;
+}
+
+.console-title3 {
+	background-color: rgba(229,1,18,1);
+	padding: 10px 20px;
+}
+
+.console-title4 {
+	background-color: rgba(255,220,0,1);
+	padding: 10px 20px;
+}
+
+.console-game-title{
+
+	padding-left: 35px;
+	width: 320px;
+
+}
+
+.console-game-photo{
+
+position:relative;
+float: left;
+
+	flex: 0 1 30%;
+  display: flex;
+  margin: 5px 20px 30px 20px;
+  border: 2px solid rgba(200,200,200,1);
+  border-radius: 15px;
+	width: 320px;
+	height: 400px;
+}
+
 
 
 /*********
