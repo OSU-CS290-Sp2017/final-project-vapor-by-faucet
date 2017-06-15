@@ -3,21 +3,22 @@ body {
 	width: 100%;
 	height: 100%;
 	margin: 0px;
-	padding: 0px;
+	padding: 0px;	
 }
 
 header a{
 	text-decoration: none;
 }
 
-header h1  {
+h1  {
 	list-style-type: none;
     margin: 0;
     margin-top: 0;
     padding: 0;
     overflow: hidden;
+/*	
     background-color: #269bfa;
-
+*/
 }
 
 h1.site-title {
@@ -49,17 +50,17 @@ ul.navlist {
     overflow: hidden;
     background-color: #333333;
     height:50px;
-
+    
 }
 
 li.active a{
-
+	
 	background-color: #808080;
 }
 
 
 /*li.navitem.active a:hover{
-
+	
 	color: #333333;
 }*/
 
@@ -102,7 +103,7 @@ li.switch a:hover{
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-
+    
 }
 
 
@@ -110,20 +111,24 @@ li.switch a:hover{
 .console-card {
     /*border: 2px solid #cccccc;
     border-radius: 4px;*/
-    font-size: 15px;
+    font-size: 15px;    
     font-weight: 500;
     text-align: left;
-    background-color: #e6e6e6;
+    background-color: #e6e6e6; 
     display: flex;
     flex:1 50%;
     max-width: 400px;
-    max-height: 300px;
+    width: 400px;
+    height: 300px;
+    max-width: 400px;
     margin: 50px 100px;
     justify-content: center;
 
 }
 
 .console-photo-img{
+    width: 400px;
+    height: 300px;
     max-height: inherit;
     max-width: inherit;
 }
@@ -135,9 +140,7 @@ li.switch a:hover{
     opacity: .5;
 
 }
-/*********
-CONSOLE PAGE CSS
-**********/
+
 
 .console-title1 {
 	background-color: rgba(0,100,191,1);
@@ -181,143 +184,8 @@ float: left;
 }
 
 
+.console-game-photo:hover {
+    cursor: pointer;
+    opacity: .5;
 
-/*********
-GAME PAGE CSS
-**********/
-.game-page{
-	padding: 0 1%;
-}
-
-
-
-.game-info{
-	padding-top: 10px;
-	display: flex;
-	flex-wrap: wrap;
-}
-
-
-.game-title{
-	justify-content: center;
-	height: 60px;
-	width: auto;
-	display: inline;
-}
-
-.game-title h1{
-	font-size: 45px;
-	margin: 0;
-}
-
-.game-image-container{
-	position: relative;
-	width: 450px;
-	height: 600px;
-}
-
-#game-rating{
-	margin-left: 9%;
-	height: 50px;
-	width: 50px;
-	display: inline-block;
-	background-color: black;
-	text-align: center;
-	vertical-align: middle;
-	line-height: 50px;
-}
-
-#game-rating h2{
-	margin: 0;
-	height: inherit;
-	width: inherit;
-	color: white;
-}
-
-.game-image {
-	height: inherit;
-	width: inherit;
-}
-
-.game-description{
-	flex: 1 50%;
-	max-width: 50%;
-	position: absolute;
-	top: 25%;
-	left: 470px;
-}
-
-.game-description p{
-	font-size: 25px;
-}
-
-
-/*******
-Comment Section CSS
-*******/
-
-#commentheader{
-	font-size: 36px;
-	border-bottom: solid 1px;
-	border-color: #5f5f5f;
-	height: 50px;
-}
-
-.comment-section{
-	display: flex;
-	flex-wrap: wrap;
-	justify-content: flex-start;
-}
-
-
-.comment-input{
-	flex: 3 100%;
-	margin: 6px 3px;
-	height: 80px;
-	display: flex;
-	padding-top: 2px;
-	padding-bottom: 2px;
-	border-bottom: solid 1px #5f5f5f;
-}
-
-/*.comment-input textarea{
-	height: inherit;
-}*/
-
-#comment-input-text{
-	width: 50%;
-}
-
-#comment-input-user{
-	width: 15%;
-	height: 30px;
-}
-
-#new-comment-button{
-	position: relative;
-	height: 25px;
-	top: 45px;
-	right: 10%;
-}
-
-#rating-input{
-	position: relative;
-	height: 25px;
-	top: 45px;
-	right: 15%;
-}
-
-.comments{
-	/*margin: 3px;
-
-	border: solid 1px #5f5f5f;*/
-	flex: 2 100%;
-	max-width: 50%;
-	display: flex;
-  padding: 1px;
-	margin: 2px;
-	padding-left: 4px;
-  border: 1px solid #dadada;
-  border-radius: 2px;
-  background-color: #fff;
 }
